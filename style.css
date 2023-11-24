@@ -18,7 +18,8 @@ logo #logo {
     justify-self: center;
     min-height: 100px;
     max-height: 500px;
-    width: 100px;
+    min-width: 100px;
+    width: fit-content;
     max-width: max-content;
     height: auto;
 }
