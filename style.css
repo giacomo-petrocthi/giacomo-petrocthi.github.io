@@ -33,6 +33,11 @@ contact {
     text-align: center;
 }
 
+a #cell {
+    color: #f8f8ff;
+    text-decoration: none;
+}
+
 footer {
     font-size: 1.25rem;
     text-align: center;
