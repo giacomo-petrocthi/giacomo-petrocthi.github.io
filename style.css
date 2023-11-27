@@ -28,19 +28,16 @@ logo #logo {
 contact {
     max-height: 200px;
     font-size: 2rem;
-    color: #f8f8ff;
+    color: #2a52be;
     width: 100%;
     text-align: center;
-}
-
-a #cell {
-    color: #f8f8ff;
-    text-decoration: none;
+    text-shadow: 1px 1px 1px grey;
 }
 
 footer {
     font-size: 1.25rem;
     text-align: center;
     color: #2a52be;
+    font-weight: bold;
     margin-bottom: 100px;
 }
