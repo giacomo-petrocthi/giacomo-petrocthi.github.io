@@ -23,6 +23,7 @@ logo #logo {
     width: 100%;
     max-width: max-content;
     height: auto;
+    background-color: rgba(248 , 248, 255, 0.5);
 }
 
 contact {
