@@ -12,11 +12,11 @@ logo {
     max-height: 400px;
     height: auto;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 
 logo #logo {
-    justify-self: center;
+    justify-self: left;
     min-height: 100px;
     max-height: 500px;
     min-width: 100px;
