@@ -7,23 +7,19 @@ html {
 
 logo {
     display: inline-flex;
-    width: 100%;
-    min-height: 100px;
-    max-height: 400px;
-    height: auto;
+    margin: 20px 10px;
+    height: 150px;
     align-items: center;
     justify-content: left;
+    border-radius: 3px;
 }
 
 logo #logo {
     justify-self: left;
-    min-height: 100px;
-    max-height: 500px;
-    min-width: 100px;
     width: 100%;
     max-width: max-content;
     height: auto;
-    background-color: rgba(248 , 248, 255, 0.5);
+    background-color: rgba(255 , 255, 255, 0.9);
 }
 
 contact {
