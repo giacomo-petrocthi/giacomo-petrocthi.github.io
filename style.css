@@ -7,20 +7,12 @@ html {
 
 logo {
     display: inline-flex;
-    margin: 10px 25px;
-    height: 100px;
-    align-items: center;
-    justify-content: left;
-    border-radius: 3px;
+    margin: 20px 25px;
 }
 
 logo #logo {
-    justify-self: left;
-    width: 100%;
-    max-width: max-content;
-    height: auto;
     background-color: rgba(255 , 255, 255, 0.9);
-    border-radius: 3px;
+    border-radius: 10px;
 }
 
 contact {
