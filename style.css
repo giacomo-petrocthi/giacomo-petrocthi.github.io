@@ -43,6 +43,11 @@ footer {
     font-weight: bold;
 }
 
+contact h4 :not {
+	color: #f8f8ff;
+	text-decoration: none;
+}
+
 contact h4 :active {
 	color: #f8f8ff;
 	text-decoration: none;
