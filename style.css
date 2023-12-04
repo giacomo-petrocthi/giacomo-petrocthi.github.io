@@ -42,3 +42,18 @@ footer {
     color: #f8f8ff;
     font-weight: bold;
 }
+
+@media only screen and (orientation: portrait) {
+    html {
+        background-image: url('cell_background.jpg');
+    }
+    contact {
+        margin-top: 50px;
+        left: 375px;
+    }
+    footer {
+        top: 800px;
+        left: 390px;
+        text-align: center;
+    }
+}
