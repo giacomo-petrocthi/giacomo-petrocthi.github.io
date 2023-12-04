@@ -37,20 +37,22 @@ footer {
     display: block;
     position: relative;
     left: 717px;
-    padding-top: 50px;
+    padding-top: 65px;
     font-size: 1.25rem;
     color: #f8f8ff;
     font-weight: bold;
 }
 
-contact h4 :not {
+contact h4 :not, :active, :hover {
 	color: #f8f8ff;
 	text-decoration: none;
+	text-transform: none;
 }
 
 contact h4 :active {
 	color: #f8f8ff;
 	text-decoration: none;
+	text-transform: none;
 }
 
 @media only screen and (orientation: portrait) {
@@ -61,14 +63,14 @@ contact h4 :active {
     contact {
         font-size: 1rem;
         margin-top: 50px;
-        left: 225px;
+        left: 175px;
         width: 200px;
         height: 135px;
 		text-shadow: none;
     }
     footer {
         margin-top: 170px;
-        left: 68px;
+        left: 50px;
         text-align: center;
     }
 }
