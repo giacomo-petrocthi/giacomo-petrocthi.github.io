@@ -46,14 +46,17 @@ footer {
 @media only screen and (orientation: portrait) {
     html {
         background-image: url('cell_background.jpg');
+        font-size: 12px;
     }
     contact {
         margin-top: 50px;
-        left: 375px;
+        left: 225px;
+        width: 350px;
+        height: 260px;
     }
     footer {
-        top: 800px;
-        left: 390px;
+        margin-top: 170px;
+        left: 68px;
         text-align: center;
     }
 }
