@@ -1,27 +1,28 @@
 html {
     font-size: 16px;
     font-family: Helvetica, sans-serif;
-    background-image: url('background.jpg');
+    background-image: url('web_background.jpg');
     background-size: cover;
 }
 
 logo {
     display: inline-flex;
-    margin: 20px 25px;
+    margin: 5px;
 }
 
 logo #logo {
-    background-color: rgba(255 , 255, 255, 0.9);
     border-radius: 10px;
 }
 
 contact {
-    max-height: 200px;
+    height: 500px;
+    left: 500px;
     font-size: 2rem;
-    color: blue;
-    width: 100%;
-    text-align: center;
-    text-shadow: 1px 1px 1px grey;
+    color: #f8f8ff;
+    width: 500px;
+    text-shadow: 1px 1px 1px #cdad7f;
+    background-color: rgba(0, .0, 0, 0.5);
+    border-radius: 10px;
 }
 
 footer {
