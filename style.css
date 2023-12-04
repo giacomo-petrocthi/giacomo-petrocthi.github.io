@@ -43,17 +43,7 @@ footer {
     font-weight: bold;
 }
 
-contact h4 :not, :active, :hover {
-	color: #f8f8ff;
-	text-decoration: none;
-	text-transform: none;
-}
-
-contact h4 :active {
-	color: #f8f8ff;
-	text-decoration: none;
-	text-transform: none;
-}
+a[href^=tel]{ color:#f8f8ff; text-decoration:none;}
 
 @media only screen and (orientation: portrait) {
     html {
@@ -70,7 +60,7 @@ contact h4 :active {
     }
     footer {
         margin-top: 170px;
-        left: 50px;
+        left: 30px;
         text-align: center;
     }
 }
