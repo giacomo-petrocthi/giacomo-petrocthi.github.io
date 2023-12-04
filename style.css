@@ -15,20 +15,30 @@ logo #logo {
 }
 
 contact {
-    height: 500px;
-    left: 500px;
+    display: block;
+    position: relative;
+    height: 340px;
+    left: 675px;
     font-size: 2rem;
     color: #f8f8ff;
     width: 500px;
     text-shadow: 1px 1px 1px #cdad7f;
     background-color: rgba(0, .0, 0, 0.5);
     border-radius: 10px;
+    padding-left: 25px;
+    padding-top: 1px;
+}
+
+h1 {
+    text-shadow: none;
 }
 
 footer {
+    display: block;
+    position: relative;
+    left: 717px;
+    padding-top: 50px;
     font-size: 1.25rem;
-    text-align: center;
-    color: #2a52be;
+    color: #f8f8ff;
     font-weight: bold;
-    margin-bottom: 100px;
 }
