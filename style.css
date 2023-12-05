@@ -1,10 +1,11 @@
 html {
     font-size: 16px;
     font-family: Helvetica, sans-serif;
-    background-image: url('web_background.jpg');
+    background: url('web_background.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-color: #003366;
 }
 
 logo {
@@ -49,10 +50,11 @@ a[href^=tel]{ color:#f8f8ff; text-decoration:none;}
 
 @media only screen and (orientation: portrait) {
     html {
-        background-image: url('cell_background.jpg');
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-color: #003366;
+    background: url('cell_background.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
         font-size: 12px;
     }
     contact {
