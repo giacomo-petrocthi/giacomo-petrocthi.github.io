@@ -1849,7 +1849,11 @@ img {
   padding-top: 5rem;
   padding-bottom: 5rem;
   overflow: hidden;
-  background-color: #4b4455;
+  background-image: url("../../../assets/images/office-730681-1920-1920x1282.jpg");
+}
+.cid-u3G2ptNLR5 .mbr-overlay {
+  background: #ffffff;
+  opacity: 0.1;
 }
 .cid-u3G2ptNLR5 .title-wrapper {
   padding: 0 120px;
