@@ -881,12 +881,12 @@ img {
   width: 100%;
 }
 .cid-u3G2gawgTF .navbar-dropdown {
-  background-color: #27232c !important;
+  background: #27232c !important;
   padding: 0;
   position: absolute !important;
 }
 .cid-u3G2gawgTF .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background-color: #27232c !important;
+  background: #27232c !important;
   background: #27232c;
 }
 .cid-u3G2gawgTF .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
@@ -1168,7 +1168,7 @@ img {
 }
 .cid-u3G2gawgTF .dropdown-menu,
 .cid-u3G2gawgTF .navbar.opened {
-  background-color: false !important;
+  background-color: true !important;
 }
 .cid-u3G2gawgTF .nav-item:focus,
 .cid-u3G2gawgTF .nav-link:focus {
